@@ -20,12 +20,21 @@ You will need tesseract with indonesian language support installed in your syste
 ```console
 $ brew install tesseract-lang
 ```
+<h4 style="font-weight:800;">Tesseract installer for Windows.</h4>
+
+Tesseract program [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
+
+Download indonesian language [ind.traineddata](https://github.com/tesseract-ocr/tessdata) and then move to 'C:\Program Files\Tesseract-OCR\tessdata'
+
+Adding environment path tesseract to system "Path >> C:\Program Files\Tesseract-OCR"
+
 ---
+
 
 <h2 style="font-weight: 800;">🚀 How to launch</h2>
 
 ```console
-$ git clone https://github.com/YukaLangbuana/KTP-OCR.git
+$ git clone https://github.com/YogiDwiAndrian/KTP-OCR.git
 $ cd KTP-OCR
 $ pip install -r requirements.txt
 $ python3 ocr.py <path-image>

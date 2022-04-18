@@ -128,3 +128,6 @@ dmypy.json
 #Local Files
 .vscode/
 env/
+env
+image2text.py
+playground.py
